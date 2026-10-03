@@ -1,0 +1,53 @@
+import type { Employee } from "@/types/employee";
+
+// TEMPORARY FRONTEND DATA. Replace with the employee API when the backend is ready.
+export const DUMMY_EMPLOYEES: Employee[] = [
+  {
+    id: "employee-001",
+    nip: "198704152010011004",
+    name: "Rina Kurniawati",
+    position: "Analis Kepegawaian Ahli Muda",
+    department: "Bagian Umum",
+    email: "rina.kurniawati@example.test",
+    phone: "0812-0000-0104",
+    status: "PNS_AKTIF",
+    bidang: "Bidang Tata Usaha",
+    golongan: "IV/c",
+  },
+  {
+    id: "employee-002",
+    nip: "199106202015021007",
+    name: "Dimas Pratama",
+    position: "Arsiparis Terampil",
+    department: "Unit Kearsipan",
+    email: "dimas.pratama@example.test",
+    phone: "0812-0000-0107",
+    status: "PPPK_KONTRAK",
+    bidang: "Bidang Informasi",
+    golongan: "III/c",
+  },
+  {
+    id: "employee-003",
+    nip: "198309102009032002",
+    name: "Siti Rahmawati",
+    position: "Pengelola Administrasi",
+    department: "Bagian Kepegawaian",
+    email: "",
+    phone: "",
+    status: "PENSIUN",
+    bidang: "Bidang Kepegawaian",
+    golongan: "IV/a",
+  },
+  {
+    id: "employee-004",
+    nip: "199412052018011009",
+    name: "Fajar Nugroho",
+    position: "Pranata Komputer",
+    department: "Subbagian Data",
+    email: "fajar.nugroho@example.test",
+    phone: "0812-0000-0109",
+    status: "PNS_AKTIF",
+    bidang: "Bidang Data",
+    golongan: "III/a",
+  },
+];
